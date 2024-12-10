@@ -1,0 +1,14 @@
+﻿<Page x:Class="EmployeManagement.View.HomePage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:EmployeManagement.View"
+      mc:Ignorable="d" 
+      d:DesignHeight="900" d:DesignWidth="1120"
+      Title="HomePage">
+
+    <Grid>
+        <TextBlock Margin="15" VerticalAlignment="Center" HorizontalAlignment="Center" FontFamily="Arial Black" FontSize="30" TextWrapping="Wrap" Text="Здравствуйте! Вы попали в программу редактирования сотрудников, для редактирования кого-то определенного, выберите их в таблице, а затем нажмите кнопку редактировать. Навигация по приложению осуществляется с помощью кнопок слева. Для добавления нового сотрудника в таблице нажмите на пустые поля в строках."/>
+    </Grid>
+</Page>
